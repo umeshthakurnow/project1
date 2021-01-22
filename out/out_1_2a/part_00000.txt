@@ -1,0 +1,169 @@
+Product: baking powder
+Product: whipped/sour cream
+Product: nut snack
+Product: shopping bags
+Product: margarine
+Product: skin care
+Product: beverages
+Product: hygiene articles
+Product: onions
+Product: oil
+Product: sauces
+Product: chocolate marshmallow
+Product: bags
+Product: photo/film
+Product: curd cheese
+Product: toilet cleaner
+Product: frozen dessert
+Product: brandy
+Product: cake bar
+Product: rubbing alcohol
+Product: long life bakery product
+Product: ham
+Product: flower soil/fertilizer
+Product: ice cream
+Product: white wine
+Product: sugar
+Product: baby cosmetics
+Product: liquor (appetizer)
+Product: baby food
+Product: softener
+Product: finished products
+Product: frankfurter
+Product: liquor
+Product: pudding powder
+Product: zwieback
+Product: condensed milk
+Product: pickled vegetables
+Product: semi-finished bread
+Product: fruit/vegetable juice
+Product: mustard
+Product: make up remover
+Product: Instant food products
+Product: chocolate
+Product: kitchen utensil
+Product: vinegar
+Product: specialty chocolate
+Product: processed cheese
+Product: ready soups
+Product: dental care
+Product: root vegetables
+Product: cocoa drinks
+Product: detergent
+Product: pot plants
+Product: waffles
+Product: sliced cheese
+Product: salt
+Product: hard cheese
+Product: instant coffee
+Product: rolls/buns
+Product: preservation products
+Product: artif. sweetener
+Product: domestic eggs
+Product: dishes
+Product: abrasive cleaner
+Product: napkins
+Product: chewing gum
+Product: specialty fat
+Product: hair spray
+Product: tidbits
+Product: white bread
+Product: tea
+Product: newspapers
+Product: light bulbs
+Product: spread cheese
+Product: specialty cheese
+Product: dessert
+Product: candy
+Product: ketchup
+Product: tropical fruit
+Product: soups
+Product: bottled water
+Product: frozen fruits
+Product: cat food
+Product: pastry
+Product: rice
+Product: flower (seeds)
+Product: soap
+Product: fish
+Product: grapes
+Product: frozen meals
+Product: canned fruit
+Product: dog food
+Product: soft cheese
+Product: sparkling wine
+Product: misc. beverages
+Product: house keeping products
+Product: herbs
+Product: nuts/prunes
+Product: pasta
+Product: rum
+Product: sausage
+Product: canned vegetables
+Product: candles
+Product: cooking chocolate
+Product: sweet spreads
+Product: kitchen towels
+Product: cookware
+Product: packaged fruit/vegetables
+Product: dish cleaner
+Product: beef
+Product: cleaner
+Product: frozen chicken
+Product: liqueur
+Product: pet care
+Product: prosecco
+Product: seasonal products
+Product: butter milk
+Product: liver loaf
+Product: specialty bar
+Product: soda
+Product: salty snack
+Product: hamburger meat
+Product: bottled beer
+Product: spices
+Product: other vegetables
+Product: meat spreads
+Product: whole milk
+Product: whisky
+Product: yogurt
+Product: brown bread
+Product: specialty vegetables
+Product: curd
+Product: mayonnaise
+Product: organic products
+Product: frozen potato products
+Product: salad dressing
+Product: citrus fruit
+Product: organic sausage
+Product: canned fish
+Product: meat
+Product: pork
+Product: popcorn
+Product: sound storage medium
+Product: bathroom cleaner
+Product: UHT-milk
+Product: frozen fish
+Product: syrup
+Product: cereals
+Product: coffee
+Product: pip fruit
+Product: turkey
+Product: cream
+Product: butter
+Product: red/blush wine
+Product: honey
+Product: cream cheese
+Product: potato products
+Product: frozen vegetables
+Product: canned beer
+Product: cling film/bags
+Product: flour
+Product: jam
+Product: decalcifier
+Product: female sanitary products
+Product: snack products
+Product: male cosmetics
+Product: roll products
+Product: chicken
+Product: berries
