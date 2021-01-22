@@ -33,13 +33,12 @@ log at /home/log.txt
 Features
 --------
 
-- Get an overall count of total item sold out in a given day(or in the given time-frame)
-- Get a count of individual items sold for analytical purpose.
-- Get a count of total items sold for analytical purpose.
-- Make things faster
+- Get an overall count of total item sold in a given day(or in the given time-frame)
+- Get counts of individual items sold for analytical purpose.
+- Get counts of total items sold for analytical purpose.
 - Get a quick glance of minimum price and maximum price and total number of registered airbnb properties.
-- Average number of bathrooms and bedrooms avialable in a given property when price is below 5000 and is top rated.
-- Quickly know the total strength in terms of accomodation for the best properties considering the prices and user ratings.
+- Average number of bathrooms and bedrooms available in a given property when price is below 5000 and is top rated.
+- Quickly know the total strength in terms of accommodation for the best properties considering the prices and user ratings.
 
 
 Installation

@@ -11,7 +11,7 @@ object GroceryShoppingCart {
     val products= productCount.map(x=>"Product: ".concat(x._1.toString)).filter(e=> !e.equals("Product: "))
 
     //task2 (a)
-    products.coalesce(1).saveAsTextFile("C:\\output\\output_1_2a")
+    products.coalesce(1).saveAsTextFile("C:\\output\\out_1_2a")
 
     //task2 (b)
     val out = new java.io.PrintWriter("C:\\out_1_2b")
@@ -19,7 +19,7 @@ object GroceryShoppingCart {
     out.close()
 
     //task 3
-    productCount.filter(e=> !e._1.equals("")).coalesce(1).saveAsTextFile("C:\\output\\output_1_3")
+    productCount.filter(e=> !e._1.equals("")).coalesce(1).saveAsTextFile("C:\\output\\out_1_3")
   }
 
 }

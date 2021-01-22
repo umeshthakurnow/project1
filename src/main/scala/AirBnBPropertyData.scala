@@ -11,7 +11,7 @@ object AirBnBPropertyData {
 
     //task2
     val pricesMinMax = propertyData.agg(min("price").alias("min_price"), max("price").alias("max_price"),count("*").alias("row_count"))
-    pricesMinMax.coalesce(1).write.option("header","true").option("inferSchema","true").option("delimiter","|").mode("overwrite").csv("out_2_2")
+    pricesMinMax.coalesce(1).write.option("header","true").option("inferSchema","true").option("delimiter","|").mode("overwrite").csv("C:\\output\\out_2_2")
 
     //task 3
     val avgRoomsForTopRatedProperties=
@@ -38,7 +38,7 @@ object AirBnBPropertyData {
         .agg(avg("bathrooms").alias("avg_bathrooms"),avg("bedrooms").alias("avg_bedrooms"))
     //Need to get confirmation if the the average count needs to be a real number since we are counting the number of bedrooms.
 
-    avgRoomsForTopRatedProperties.coalesce(1).write.option("header","true").option("inferSchema","true").option("delimeter","|").mode("overwrite").csv("/out_2_3")
+    avgRoomsForTopRatedProperties.coalesce(1).write.option("header","true").option("inferSchema","true").option("delimiter","|").mode("overwrite").csv("C:\\output\\out_2_3")
 
     //task 4
     val aggregatedData= propertyData.agg(min("price").alias("lowest_price"), max("review_scores_rating").alias("highest_rating")).persist
@@ -55,7 +55,7 @@ object AirBnBPropertyData {
       .dropDuplicates()
       .agg(sum("accommodates").alias("total_number_of_people_can_be_accommodated"))
 
-    avgStrengthsBestProperties.rdd.map(x=>x(0)).coalesce(1).saveAsTextFile("/out_2_4")
+    avgStrengthsBestProperties.rdd.map(x=>x(0)).coalesce(1).saveAsTextFile("C:\\output\\out_2_4")
     //since spark will not allow to store the long values as text files.
   }
 
