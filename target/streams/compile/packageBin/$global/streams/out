@@ -1,0 +1,11 @@
+[info] Packaging C:\Users\Night Fury\IdeaProjects\project1\target\scala-2.12\project1_2.12-0.1.jar ...
+[debug] Input file mappings:
+[debug] 	AirBnBPropertyData$.class
+[debug] 	  C:\Users\Night Fury\IdeaProjects\project1\target\scala-2.12\classes\AirBnBPropertyData$.class
+[debug] 	AirBnBPropertyData.class
+[debug] 	  C:\Users\Night Fury\IdeaProjects\project1\target\scala-2.12\classes\AirBnBPropertyData.class
+[debug] 	GroceryShoppingCart$.class
+[debug] 	  C:\Users\Night Fury\IdeaProjects\project1\target\scala-2.12\classes\GroceryShoppingCart$.class
+[debug] 	GroceryShoppingCart.class
+[debug] 	  C:\Users\Night Fury\IdeaProjects\project1\target\scala-2.12\classes\GroceryShoppingCart.class
+[info] Done packaging.
