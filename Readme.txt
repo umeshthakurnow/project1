@@ -57,7 +57,7 @@ https://github.com/databricks/LearningSparkV2/blob/master/mlflow-project-example
 Contribute
 ----------
 
-- Source Code: github.com/$project1/$project
+- Source Code: https://github.com/umeshthakurnow/project1
 
 Support
 -------
