@@ -24,7 +24,18 @@ object AirBnBPropertyData {
             col("review_scores_communication")===10D and
             col("review_scores_location")===10D and
             col("review_scores_value")===10D
-        ).agg(avg("bathrooms").alias("avg_bathrooms"),avg("bedrooms").alias("avg_bedrooms"))
+        )
+        /*
+        Since the requirement document reads as below,
+        "Calculate the average number of bathrooms and bedrooms across all the properties listed in this
+        data set with a price of > 5000
+        and a review score being exactly equal to 10."
+
+        as per my understanding the user is interested in the properties where
+        all kinds of review score equal to 10 hence applied filter on all the available columns
+        with name review_core in it.
+         */
+        .agg(avg("bathrooms").alias("avg_bathrooms"),avg("bedrooms").alias("avg_bedrooms"))
     //Need to get confirmation if the the average count needs to be a real number since we are counting the number of bedrooms.
 
     avgRoomsForTopRatedProperties.coalesce(1).write.option("header","true").option("inferSchema","true").option("delimeter","|").mode("overwrite").csv("/out_2_3")
