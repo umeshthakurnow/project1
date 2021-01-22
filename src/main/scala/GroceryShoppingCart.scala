@@ -8,7 +8,7 @@ object GroceryShoppingCart {
 
     val productCount= data.flatMap(x=>x.split(",")).map(word => (word,1)).reduceByKey(_ + _)
 
-    val products= productCount.map(x=>"Product: ".concat(x._1.toString))
+    val products= productCount.map(x=>"Product: ".concat(x._1.toString)).filter(e=> !e.equals("Product: "))
 
     //task2 (a)
     products.coalesce(1).saveAsTextFile("C:\\Users\\Night Fury\\Desktop\\New_folder\\out_1_2a")
@@ -19,7 +19,7 @@ object GroceryShoppingCart {
     out.close()
 
     //task 3
-    productCount.coalesce(1).saveAsTextFile("C:\\Users\\Night Fury\\Desktop\\New folder\\out_1_3")
+    productCount.filter(e=> !e._1.equals("")).coalesce(1).saveAsTextFile("C:\\Users\\Night Fury\\Desktop\\New folder\\out_1_3")
   }
 
 }
