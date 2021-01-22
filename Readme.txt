@@ -28,26 +28,23 @@ C:\output\out_2_4
 Features
 --------
 
-- Get an overall count of total item sold out in a given day(or in the given time-frame)
-- Get a count of individual items sold for analytical purpose.
+- Get an overall count of total item sold in a given day(or in the given time-frame)
+- Get counts of individual items sold for analytical purpose.
 - Get a count of total items sold for analytical purpose.
-- Make things faster
 - Get a quick glance of minimum price and maximum price and total number of registered airbnb properties.
-- Average number of bathrooms and bedrooms avialable in a given property when price is below 5000 and is top rated.
+- Average number of bathrooms and bedrooms avialable in top rated properties with price below than 5000.
 - Quickly know the total strength in terms of accomodation for the best properties considering the prices and user ratings.
 
 
 Installation
 ------------
-
-Installation and execution:
 prerequisite- 
 Spark Version 2.4.0 and above.
 Scala Version 2.12.13 and above.
 Java Verion 1.8.0 and above.
 
 1.  Download the repository as an project on your local directory and launch using intellij
-2  . Download the required input files from below locations.
+2 . Download the required input files from below locations.
 https://raw.githubusercontent.com/stedy/Machine-Learning-with-R-datasets/master/groceries.csv
 https://github.com/databricks/LearningSparkV2/blob/master/mlflow-project-example/data/sf-airbnb-clean.parquet/part-00000-tid-4320459746949313749-5c3d407c-c844-4016-97ad-2edec446aa62-6688-1-c000.snappy.parquet
 
@@ -57,7 +54,7 @@ https://github.com/databricks/LearningSparkV2/blob/master/mlflow-project-example
 Contribute
 ----------
 
-- Source Code: https://github.com/umeshthakurnow/project1
+Source Code: https://github.com/umeshthakurnow/project1
 
 Support
 -------
