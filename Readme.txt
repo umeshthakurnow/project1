@@ -11,7 +11,7 @@ None of the above application needs any parameter to run and can be executed ind
 the input and output file names are as follows.
 
 Grocery-App
-input: C:\inputgrocery
+input: C:\input\groceries.csv
 output: 
 C:\output\output_1_2a
 C:\output\output_1_2b
@@ -19,7 +19,7 @@ C:\output\output_1_3
 
 
 AirBnB-App
-C:\input\airbnb
+C:\input\airbnb\part-00000-tid-4320459746949313749-5c3d407c-c844-4016-97ad-2edec446aa62-6688-1-c000.snappy.parquet
 output:
 C:\output\out_2_2
 C:\output\out_2_3
@@ -46,11 +46,12 @@ Spark Version 2.4.0 and above.
 Scala Version 2.12.13 and above.
 Java Verion 1.8.0 and above.
 
-Download the repository as an project on your local directory and launch using intellij
-download the required input files from below locations.
+1.  Download the repository as an project on your local directory and launch using intellij
+2  . Download the required input files from below locations.
 https://raw.githubusercontent.com/stedy/Machine-Learning-with-R-datasets/master/groceries.csv
 https://github.com/databricks/LearningSparkV2/blob/master/mlflow-project-example/data/sf-airbnb-clean.parquet/part-00000-tid-4320459746949313749-5c3d407c-c844-4016-97ad-2edec446aa62-6688-1-c000.snappy.parquet
-once the dependencies are resolved on intellij compile and execute the application to generate output data.
+
+3. Once the dependencies are resolved on intellij you can compile and execute the application to generate output data.
 
 
 Contribute
